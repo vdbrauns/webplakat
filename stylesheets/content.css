@@ -1,0 +1,339 @@
+*{
+  box-sizing: border-box;
+}
+body
+{
+  width: 100%;
+}
+@font-face
+{
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face
+{
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face
+{
+  font-family: 'F77 Minecraft';
+  src: url('../fonts/F77 Minecraft.ttf');
+}
+.pers
+{
+  position: fixed;
+  left: 825px;
+  top: 542px;
+  animation: pers 6s linear infinite;
+}
+@keyframes pers
+{
+  0%
+  {transform: rotate(0deg);}
+  25%
+  {
+    transform: rotate(45deg);
+  }
+  85%
+  {transform: rotate(-20deg);}
+  100%
+  {
+    transform: rotate(0deg);
+  }
+}
+.screen1
+{
+  width: 1920px;
+  height: 901px;
+  display: flex;
+}
+.homeleft
+{
+  display: flex;
+}
+.panelka1
+{
+  position: relative;
+  margin-top: 10px;
+}
+.panelka2
+{
+  position: relative;
+  margin-top: 135px;
+  margin-left: -1px;
+}
+.rectangle
+{
+  position: absolute;
+  width: 115px;
+  height: 580px;
+  top: 320px;
+  left: 354px;
+  background: #2829FB;
+  overflow: hidden;
+}
+.windows1
+{
+  display: flex;
+  flex-flow: column;
+}
+.flex
+{
+  display: flex;
+}
+.windowhome:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome
+{
+  margin: 6px;
+  left: 9px;
+  top: 8px;
+  position: relative;
+  width: 14px;
+  height: 91px;
+  margin: 5px;
+  background: #0B0CB9;
+}
+.rectangle1
+{
+  position: absolute;
+  top: 511px;
+  left: 560px;
+  width: 138px;
+  height: 390px;
+  background: #1415D2;
+
+}
+.flex
+{
+  display: flex;
+}
+.windowhome1:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome1
+{
+  position: relative;
+  width: 20px;
+  height: 30px;
+  margin: 5px;
+  left: 9px;
+  top: 13px;
+  background: #6D6EFF;
+}
+.rectangle2
+{
+  position: absolute;
+  width: 76px;
+  height: 236px;
+  top: 664px;
+  left: 548px;
+  background: #2829FB;
+}
+
+.windowhome2:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome2
+{
+  position: relative;
+  left: 1px;
+  top: 1px;
+  width: 15px;
+  height: 23px;
+  margin: 5px;
+  background: #9899FF;
+}
+.text
+{
+  position: relative;
+  width: 612.85px;
+  height: 219.8px;
+  left: 25px;
+  top: 111px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 89px;
+  line-height: 110px;
+  color: #0000FD;
+}
+.text1
+{
+  position: relative;
+  width: 759px;
+  height: 220px;
+  left: -576px;
+  top: 363px;
+  font-family: F77 Minecraft;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 82px;
+  color: #0000FD;
+}
+.homeright
+{
+  display: flex;
+}
+.panelka5
+{
+  position: relative;
+  left: -130px;
+}
+.panelka4
+{
+  position: relative;
+  left: -604px;
+}
+.panelka3
+{
+  position: relative;
+  left: -1064px;
+  top: 107px;
+  transform: scale(77%);
+}
+.rectangle3
+{
+  position: absolute;
+  top: 260px;
+  left: 1692px;
+  width: 122px;
+  height: 640px;
+  background: #0B0CB9;
+}
+.rectangle4
+{
+  position: absolute;
+  top: 430px;
+  left: 1620px;
+  width: 151px;
+  height: 470px;
+  background: #2829FB;
+}
+.windowhome3:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome3
+{
+  position: relative;
+  left: 1px;
+  top: 6px;
+  width: 47px;
+  height: 18px;
+  margin: 14px;
+  background: #0B0CB9;
+}
+.rectangle5
+{
+  position: absolute;
+  top: 704px;
+  left: 1356px;
+  width: 92px;
+  height: 196px;
+  background: #0000FF;
+}
+.windowhome4:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome4
+{
+  position: relative;
+  left: 16px;
+  top: 12px;
+  width: 14px;
+  height: 19px;
+  margin: 3px;
+  background: #9899FF;
+}
+.rectangle6
+{
+  position: relative;
+  top: 102px;
+  left: -1235px;
+  width: 143px;
+  height: 110px;
+  background: #0B0CB9;
+}
+.windowhome5:hover
+{
+background: #FFE600;
+cursor: pointer;
+transition: 0.35s;
+}
+.windowhome5
+{
+  position: relative;
+  left: 3px;
+  top: 0px;
+  width: 14px;
+  height: 104px;
+  margin: 5px;
+  background: #2829  FB;
+}
+.screen2
+{
+  width: 1920px;
+  height: 979px;
+}
+/* .pic1
+{
+  position: relative;
+
+} */
+.rectangle7
+{
+  position: relative;
+  top: -940px;
+  width: 1920px;
+  height: 90px;
+  background: #0000FE;
+}
+.number
+{
+  position: absolute;
+  top: 913px;
+    left: 54px;
+}
+.text2
+{
+position: relative;
+width: 126.23px;
+height: 23.92px;
+left: 125px;
+top: 934px;
+font-family: F77 Minecraft;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: #FFFFFF;
+}
