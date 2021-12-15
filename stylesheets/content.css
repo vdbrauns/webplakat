@@ -302,7 +302,7 @@ transition: 0.35s;
   top: 10px;
   background: #9899FF;
 }
-.rectanglewindow
+/* .rectanglewindow
 {
   position: absolute;
   width: 62px;
@@ -328,11 +328,66 @@ transition: 0.35s;
   opacity:0.5;
   }
   }
-  }
-#rectangllll
+  } */
+.plashka
+{
+  position: relative;
+  top: -21px;
+  width: 1920px;
+  height: 90px;
+  background: #0000FE;
+}
+.hearts
 {
   position: absolute;
-  width: 62px;
-  height: 47px;
-  background: #FFE600;
+  top: -12px;
+  left: 1503px;
+  transform: scale(80%);
+}
+.text3
+{
+  position: absolute;
+  width: 323px;
+  height: 24px;
+  left: 1237px;
+  top: 36px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.number1
+{
+ position: relative;
+top: 21px;
+ margin-left: 56px;
+}
+.text4
+{
+  position: absolute;
+  width: 126px;
+  height: 23px;
+  margin-left: 132px;
+  top: 38px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.screen2
+{
+  width: 1920px;
+  height: 886px;
+  display: flex;
+}
+.piccloud
+{
+  position: relative;
+  margin-left: 0px;
+  margin-top: -21px;
+}
+.cloud1
+{
+  background-image: url('.../img/cloud1.svg');
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
