@@ -42,6 +42,7 @@ body
     transform: rotate(0deg);
   }
 }
+
 .screen1
 {
   width: 1920px;
@@ -51,6 +52,7 @@ body
 .homeleft
 {
   display: flex;
+  width: 699px;
 }
 .panelka1
 {
@@ -157,10 +159,10 @@ transition: 0.35s;
 }
 .text
 {
-  position: relative;
+  position: absolute;
   width: 612.85px;
   height: 219.8px;
-  left: 25px;
+  left: 597px;
   top: 111px;
 
   font-family: Gilroy;
@@ -172,10 +174,10 @@ transition: 0.35s;
 }
 .text1
 {
-  position: relative;
+  position: absolute;
   width: 759px;
   height: 220px;
-  left: -576px;
+  left: 605px;
   top: 363px;
   font-family: F77 Minecraft;
   font-style: normal;
@@ -187,143 +189,33 @@ transition: 0.35s;
 .homeright
 {
   display: flex;
+  width: 672px;
+  height: 901px;
+  margin-left: 546px;
 }
 .panelka5
 {
   position: relative;
-  left: -130px;
+  margin-left: 413px;
 }
 .panelka4
 {
   position: relative;
-  left: -604px;
+  margin-left: -500px;
 }
 .panelka3
 {
   position: relative;
-  left: -1064px;
-  top: 107px;
-  transform: scale(77%);
+  margin-left: -443px;
+  margin-top: 171px;
+  top: 4px;
 }
 .rectangle3
 {
   position: absolute;
-  top: 260px;
-  left: 1692px;
-  width: 122px;
+  width: 120px;
   height: 640px;
+  top: 259px;
+  left: 1668px;
   background: #0B0CB9;
-}
-.rectangle4
-{
-  position: absolute;
-  top: 430px;
-  left: 1620px;
-  width: 151px;
-  height: 470px;
-  background: #2829FB;
-}
-.windowhome3:hover
-{
-background: #FFE600;
-cursor: pointer;
-transition: 0.35s;
-}
-.windowhome3
-{
-  position: relative;
-  left: 1px;
-  top: 6px;
-  width: 47px;
-  height: 18px;
-  margin: 14px;
-  background: #0B0CB9;
-}
-.rectangle5
-{
-  position: absolute;
-  top: 704px;
-  left: 1356px;
-  width: 92px;
-  height: 196px;
-  background: #0000FF;
-}
-.windowhome4:hover
-{
-background: #FFE600;
-cursor: pointer;
-transition: 0.35s;
-}
-.windowhome4
-{
-  position: relative;
-  left: 16px;
-  top: 12px;
-  width: 14px;
-  height: 19px;
-  margin: 3px;
-  background: #9899FF;
-}
-.rectangle6
-{
-  position: relative;
-  top: 102px;
-  left: -1235px;
-  width: 143px;
-  height: 110px;
-  background: #0B0CB9;
-}
-.windowhome5:hover
-{
-background: #FFE600;
-cursor: pointer;
-transition: 0.35s;
-}
-.windowhome5
-{
-  position: relative;
-  left: 3px;
-  top: 0px;
-  width: 14px;
-  height: 104px;
-  margin: 5px;
-  background: #2829  FB;
-}
-.screen2
-{
-  width: 1920px;
-  height: 979px;
-}
-/* .pic1
-{
-  position: relative;
-
-} */
-.rectangle7
-{
-  position: relative;
-  top: -940px;
-  width: 1920px;
-  height: 90px;
-  background: #0000FE;
-}
-.number
-{
-  position: absolute;
-  top: 913px;
-    left: 54px;
-}
-.text2
-{
-position: relative;
-width: 126.23px;
-height: 23.92px;
-left: 125px;
-top: 934px;
-font-family: F77 Minecraft;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 24px;
-color: #FFFFFF;
 }
