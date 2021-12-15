@@ -386,8 +386,10 @@ top: 21px;
 }
 .cloud1
 {
-  background-image: url('.../img/cloud1.svg');
+  background-image: url('../img/cloud2.svg');
   position: relative;
+  width: 563px;
+  height: 154px;
   top: 0px;
   left: 0px;
 }
