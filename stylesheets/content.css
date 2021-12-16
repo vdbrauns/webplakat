@@ -28,6 +28,7 @@ body
   display: flex;
   left: 825px;
   top: 542px;
+  z-index: 999;
   animation: pers 6s linear infinite;
 }
 @keyframes pers
