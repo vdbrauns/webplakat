@@ -70,6 +70,162 @@ body
   position: relative;
   margin-top: 10px;
 }
+.animationwindow
+{
+  position: relative;
+  width: 62px;
+  height: 47px;
+  top: 36px;
+  left: 285px;
+  background: #FFE600;
+  opacity: 0%;
+  transition: 10s;
+  animation: show 3s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-iteration-count:infinite;
+  }
+  @keyframes show
+  {
+  0%
+  {
+  opacity:0;
+  }
+  45%
+  {
+  opacity:0.5;
+  }
+  }
+  .animationwindow1
+  {
+    position: relative;
+    width: 62px;
+    height: 47px;
+    top: 83px;
+    left: 181px;
+    background: #FFE600;
+    opacity: 0%;
+    transition: 5s;
+    animation: show 10s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes show
+    {
+    0%
+    {
+    opacity:0;
+    }
+    45%
+    {
+    opacity:0.5;
+    }
+    }
+    .animationwindow2
+    {
+      position: relative;
+      width: 74px;
+      height: 47px;
+      top: 139px;
+      left: 0px;
+      background: #FFE600;
+      opacity: 0%;
+      transition: 10s;
+      animation: show 20s 1;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+      animation-iteration-count:infinite;
+      }
+      @keyframes show
+      {
+      0%
+      {
+      opacity:0;
+      }
+      45%
+      {
+      opacity:0.5;
+      }
+      }
+      .animationwindow3
+      {
+        position: relative;
+        width: 88px;
+        height: 47px;
+        top: 188px;
+        left: 266px;
+        background: #FFE600;
+        opacity: 0%;
+        transition: 10s;
+        animation: show 15s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+        }
+        @keyframes show
+        {
+        0%
+        {
+        opacity:0;
+        }
+        45%
+        {
+        opacity:0.5;
+        }
+        }
+        .animationwindow4
+        {
+          position: relative;
+          width: 64px;
+          height: 47px;
+          top: 336px;
+          left: 6px;
+          background: #FFE600;
+          opacity: 0%;
+          transition: 5s;
+          animation: show 5s 1;
+          animation-fill-mode: forwards;
+          animation-delay: 1s;
+          animation-iteration-count:infinite;
+          }
+          @keyframes show
+          {
+          0%
+          {
+          opacity:0;
+          }
+          45%
+          {
+          opacity:0.5;
+          }
+          }
+          .animationwindow5
+          {
+            position: relative;
+            width: 65px;
+            height: 47px;
+            top: 478px;
+            left: 178px;
+            background: #FFE600;
+            opacity: 0%;
+            transition: 5s;
+            animation: show 20s 1;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+            animation-iteration-count:infinite;
+            }
+            @keyframes show
+            {
+            0%
+            {
+            opacity:0;
+            }
+            45%
+            {
+            opacity:0.5;
+            }
+            }
 .panelka2
 {
   position: relative;
@@ -81,7 +237,7 @@ body
   position: absolute;
   width: 115px;
   height: 580px;
-  top: 320px;
+  top: 323px;
   left: 354px;
   background: #2829FB;
   overflow: hidden;
@@ -115,7 +271,7 @@ transition: 0.35s;
 .rectangle1
 {
   position: absolute;
-  top: 511px;
+  top: 513px;
   left: 560px;
   width: 138px;
   height: 390px;
@@ -147,7 +303,7 @@ transition: 0.35s;
   position: absolute;
   width: 76px;
   height: 236px;
-  top: 664px;
+  top: 671px;
   left: 548px;
   background: #2829FB;
 }
@@ -229,7 +385,7 @@ transition: 0.35s;
   position: absolute;
   width: 120px;
   height: 640px;
-  top: 259px;
+  top: 268px;
   left: 1668px;
   background: #0B0CB9;
 }
@@ -238,7 +394,7 @@ transition: 0.35s;
   position: absolute;
   width: 151px;
   height: 470px;
-  top: 429px;
+  top: 434px;
   left: 1586px;
   background: #2829FB;
 }
