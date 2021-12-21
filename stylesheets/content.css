@@ -789,7 +789,7 @@ background: #0B0CB9;
 .number1
 {
  position: relative;
-top: 21px;
+ top: 21px;
  margin-left: 56px;
 }
 .text4
@@ -806,7 +806,7 @@ top: 21px;
 .screen2
 {
   width: 1920px;
-  height: 886px;
+  height: 907px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -825,17 +825,17 @@ top: 21px;
   height: 154px;
   top: 74px;
   left: 0px;
-  animation: fly1 15s linear infinite;
+  animation: fly1 30s linear infinite;
 }
 @keyframes fly1
 {
   0%
   {
-    left: -1000px;
+    left: -20px;
   }
   100%
   {
-    left: 1700px;
+    left: 2150px;
   }
 }
 
@@ -847,17 +847,17 @@ top: 21px;
   height: 154px;
   top: 353px;
   left: 0px;
-  animation: fly3 12s linear infinite;
+  animation: fly3 30s linear infinite;
 }
 @keyframes fly3
 {
   0%
   {
-    left: -57px;
+    left: -1400px;
   }
   100%
   {
-    left: 1500px;
+    left: 2300px;
   }
 }
 .cloud2
@@ -868,17 +868,17 @@ top: 21px;
   height: 68px;
   top: 92px;
   left: 1647px;
-  animation: fly2 12s linear infinite;
+  animation: fly2 50s linear infinite;
 }
 @keyframes fly2
 {
   0%
   {
-    left: -57px;
+    left: -450px;
   }
   100%
   {
-    left: 1500px;
+    left: 2100px;
   }
 }
 .cloud4
@@ -889,17 +889,38 @@ top: 21px;
   height: 128px;
   top: 51px;
   left: 204px;
-  animation: fly4 12s linear infinite;
+  animation: fly4 60s linear infinite;
 }
 @keyframes fly4
 {
   0%
   {
-    left: -57px;
+    left: -1850px;
   }
   100%
   {
-    left: 1500px;
+    left: 1700px;
+  }
+}
+.cloud5
+{
+  background-image: url('../img/cloud5.svg');
+  position: relative;
+  width: 616px;
+  height: 151px;
+  top: 232px;
+  left: 0px;
+  animation: fly4 60s linear infinite;
+}
+@keyframes fly4
+{
+  0%
+  {
+    left: -1550px;
+  }
+  100%
+  {
+    left: 1950px;
   }
 }
 .text5
@@ -927,4 +948,75 @@ top: 21px;
 .mainclouds
 {
   position: relative;
+}
+.plashka2
+{
+  position: relative;
+  width: 1920px;
+  height: 90px;
+  background: #0000FE;
+}
+.hearts2
+{
+  position: absolute;
+  top: -12px;
+  left: 1503px;
+  transform: scale(80%);
+}
+.text7
+{
+  position: absolute;
+  width: 348px;
+  height: 24px;
+  margin-left: 1236px;
+  top: 38px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.number2
+{
+ position: relative;
+top: 21px;
+ margin-left: 56px;
+}
+.text8
+{
+  position: absolute;
+  width: 126px;
+  height: 23px;
+  margin-left: 132px;
+  top: 38px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.screen3
+{
+  width: 1923px;
+  height: 1133px;
+  display: flex;
+  position: relative;
+}
+.picspace
+{
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.section
+{
+  position: absolute;
+}
+.animationspace1:hover
+{
+background-image: url('../img/spaceani2.png');
+cursor: pointer;
+transition: 0.35s;
+}
+.animationspace1
+{
+  z-index: 10;
+position: relative;
+background-image: url('../img/spaceani1.png');
 }
