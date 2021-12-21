@@ -711,6 +711,56 @@ background: #0B0CB9;
     opacity:0.5;
     }
     }
+  .rectangle5
+    {
+    position: absolute;
+    width: 143px;
+    height: 110px;
+    top: 99px;
+    left: 38px;
+    background: #0B0CB9;
+    }
+  .windowhome4:hover
+    {
+    background: #FFE600;
+    cursor: pointer;
+    transition: 0.35s;
+    }
+  .windowhome4
+    {
+    position: relative;
+    width: 15px;
+    height: 104px;
+    margin: 5px;
+    left: 5px;
+    top: 0px;
+    background: #2829FB;
+    }
+  .rectangle6
+    {
+    position: absolute;
+    width: 92px;
+    height: 196px;
+    top: 706px;
+    left: 91px;
+    background: #0000FF;
+    }
+  .windowhome5:hover
+    {
+    background: #FFE600;
+    cursor: pointer;
+    transition: 0.35s;
+    }
+  .windowhome5
+    {
+    position: relative;
+    width: 14px;
+    height: 19px;
+    margin: 5px;
+    left: 10px;
+    top: 10px;
+    background: #9899FF;
+    }
 .plashka
 {
   position: relative;
