@@ -20,6 +20,11 @@ body
   font-family: 'F77 Minecraft';
   src: url('../fonts/F77 Minecraft.ttf');
 }
+@font-face
+{
+  font-family: 'Ctrln';
+  src: url('../fonts/Ctrln-Regular.ttf');
+}
 .pers
 {
   position: fixed;
@@ -1019,4 +1024,225 @@ transition: 0.35s;
   z-index: 10;
 position: relative;
 background-image: url('../img/spaceani1.png');
+}
+.plashka3
+{
+  position: relative;
+  width: 1920px;
+  height: 90px;
+  background: #0000FE;
+}
+.hearts3
+{
+  position: absolute;
+  top: -12px;
+  left: 1503px;
+  transform: scale(80%);
+}
+.text9
+{
+  position: absolute;
+  width: 348px;
+  height: 24px;
+  margin-left: 1236px;
+  top: 38px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.number3
+{
+ position: relative;
+top: 21px;
+ left: 56px;
+}
+.text10
+{
+  position: absolute;
+  width: 126px;
+  height: 23px;
+  left: 132px;
+  top: 38px;
+  font-family: F77 Minecraft;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.screen4
+{
+  width: 1920px;
+  height: 899px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.row{
+  width: 1920px;
+  height: 899px;
+  text-shadow: 0 0 0px 0px rgba(255, 0, 0, 1);
+  vertical-align: middle;
+  padding: absolute;
+  top: 100px;
+  color: #0000FF;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.p1{
+  font-size: 64px;
+  font-family: 'Ctrln';
+  animation: lin 30s alternate-reverse infinite;
+}
+.p2{
+  font-size: 64px;
+  font-family: 'Ctrln';
+  animation: lin2 40s alternate-reverse infinite;
+}
+@keyframes lin {
+  from { text-indent: -100%}
+  to { text-indent: 0%}
+}
+@keyframes lin2 {
+  from { text-indent: 0%}
+  to { text-indent: -100%}
+}
+.shadow
+{
+
+  position: absolute;
+  top: 217px;
+  left: 480px;
+}
+.oldhome
+{
+  position: absolute;
+  top: -29px;
+  left: 516px;
+}
+.oldhousewindow
+{
+  position: relative;
+  width: 77px;
+  height: 125px;
+  top: 700px;
+  left: 580px;
+  background: #FFE600;
+  opacity: 0%;
+  transition: 5s;
+  animation: show 5s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-iteration-count:infinite;
+  }
+  @keyframes show
+  {
+  0%
+  {
+  opacity:0;
+  }
+  45%
+  {
+  opacity:0.5;
+  }
+  }
+.oldhousewindow1
+{
+  position: relative;
+  width: 77px;
+  height: 125px;
+  top: 573px;
+  left: 235px;
+  background: #FFE600;
+  opacity: 0%;
+  transition: 5s;
+  animation: show 10s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-iteration-count:infinite;
+  }
+  @keyframes show
+  {
+  0%
+  {
+  opacity:0;
+  }
+  45%
+  {
+  opacity:0.5;
+  }
+  }
+  .plashka4
+  {
+    position: relative;
+    width: 1920px;
+    height: 90px;
+    background: #0000FE;
+  }
+  .hearts4
+  {
+    position: absolute;
+    top: -12px;
+    left: 1503px;
+    transform: scale(80%);
+  }
+  .text11
+  {
+    position: absolute;
+    width: 348px;
+    height: 24px;
+    margin-left: 1236px;
+    top: 38px;
+    font-family: F77 Minecraft;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  .number4
+  {
+   position: relative;
+  top: 21px;
+   left: 56px;
+  }
+  .text12
+  {
+    position: absolute;
+    width: 126px;
+    height: 23px;
+    left: 132px;
+    top: 38px;
+    font-family: F77 Minecraft;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+.screen5
+{
+  width: 1920px;
+  height: 1141px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.mountain
+{
+  position: relative;
+  top: -68px;
+}
+.text13
+{
+    position: relative;
+    width: 444px;
+    height: 66px;
+    left: 155px;
+    top: 384px;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    color: #FFFFFF;
+    z-index: 15;
+}
+.futor
+{
+  width: 1920px;
+  height: 422px;
+  height: 474px;
+  top: -16px;
+  display: flex;
+  position: relative;
+  background-color: #0000FF;
 }
