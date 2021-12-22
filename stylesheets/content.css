@@ -1,11 +1,12 @@
 *{
   box-sizing: border-box;
 }
+
 body
 {
   width: 1920px;
-  max-width: 1920px;
 }
+
 @font-face
 {
 	font-family: 'Gilroy-Bold';
@@ -53,7 +54,14 @@ body
   }
 }
 
-
+.maintext1
+{
+  position: absolute;
+  width: 634px;
+  height: 336px;
+  top: 40px;
+  left: 2px;
+}
 .screen1
 {
   width: 1920px;
@@ -636,8 +644,10 @@ background: #0B0CB9;
   width: 187px;
   height: 696px;
   left: -5px;
+  margin-left: 0px;
   top: 209px;
   position: absolute;
+  scale: 80%;
   }
   .rectanglewindowright6
   {
@@ -796,6 +806,7 @@ background: #0B0CB9;
 {
  position: relative;
  top: 21px;
+ width: 57px;
  margin-left: 56px;
 }
 .text4
@@ -943,9 +954,9 @@ background: #0B0CB9;
 .text6
 {
   position: relative;
-  width: 444px;
+  width: 424px;
   height: 125px;
-  left: 328px;
+  left: 227px;
   top: 366px;
   font-family: Gilroy-Medium;
   font-size: 24px;
@@ -1055,6 +1066,7 @@ background-image: url('../img/spaceani1.png');
 {
  position: relative;
 top: 21px;
+width: 57px;
  left: 56px;
 }
 .text10
@@ -1199,6 +1211,7 @@ top: 21px;
   {
    position: relative;
   top: 21px;
+  width: 57px;
    left: 56px;
   }
   .text12
