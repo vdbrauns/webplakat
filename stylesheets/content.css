@@ -4,6 +4,7 @@
 body
 {
   width: 1920px;
+  max-width: 1920px;
 }
 @font-face
 {
@@ -413,9 +414,9 @@ transition: 0.35s;
 .homeright
 {
   display: flex;
-  width: 675px;
+  width: 600px;
   height: 901px;
-  margin-left: 546px;
+  left: 546px;
   position: relative;
 }
 .panelka3
@@ -1211,10 +1212,10 @@ top: 21px;
     font-size: 24px;
     color: #FFFFFF;
   }
-  .screen3
+  .screen5
   {
     width: 1920px;
-    height: 1133px;
+    height: 1115px;
     display: flex;
     position: relative;
   }
@@ -1222,15 +1223,44 @@ top: 21px;
   {
     position: absolute;
     margin-left: 0px;
-    margin-top: -122px;
   }
   .text13
   {
     z-index: 13;
     position: relative;
     margin-left: 151px;
-    top: 316px;
+    margin-top: 330px;
     font-family: Gilroy-Medium;
     font-size: 24px;
     color: #FFFFFF;
   }
+  .futor
+  {
+    width: 1920px;
+    height: 420px;
+    display: flex;
+    background-color:#0000FE;
+    position: relative;
+  }
+  .exit
+  {
+    position: relative;
+    margin-top: 81px;
+    left: 69px;
+  }
+  .text14
+  {
+    z-index: 13;
+    position: relative;
+    left: -225px;
+    margin-top: 259px;
+    font-family: Gilroy-Bold;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .logo
+{
+    left: 1532px;
+    margin-top: 245px;
+    position: relative;
+}
