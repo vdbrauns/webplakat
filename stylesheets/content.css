@@ -3,7 +3,7 @@
 }
 body
 {
-  width: 100%;
+  width: 1920px;
 }
 @font-face
 {
@@ -840,7 +840,7 @@ background: #0B0CB9;
   }
   100%
   {
-    left: 2150px;
+    left: 1920px;
   }
 }
 
@@ -862,7 +862,7 @@ background: #0B0CB9;
   }
   100%
   {
-    left: 2300px;
+    left: 1920px;
   }
 }
 .cloud2
@@ -883,7 +883,7 @@ background: #0B0CB9;
   }
   100%
   {
-    left: 2100px;
+    left: 1920px;
   }
 }
 .cloud4
@@ -925,7 +925,7 @@ background: #0B0CB9;
   }
   100%
   {
-    left: 1950px;
+    left: 1920px;
   }
 }
 .text5
@@ -933,7 +933,7 @@ background: #0B0CB9;
   position: relative;
   width: 444px;
   height: 66px;
-  left: -277px;
+  left: -375px;
   top: 85px;
   font-family: Gilroy-Medium;
   font-size: 24px;
@@ -1211,38 +1211,26 @@ top: 21px;
     font-size: 24px;
     color: #FFFFFF;
   }
-.screen5
-{
-  width: 1920px;
-  height: 1141px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-}
-.mountain
-{
-  position: relative;
-  top: -68px;
-}
-.text13
-{
+  .screen3
+  {
+    width: 1920px;
+    height: 1133px;
+    display: flex;
     position: relative;
-    width: 444px;
-    height: 66px;
-    left: 155px;
-    top: 384px;
+  }
+  .backgroundpic
+  {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -122px;
+  }
+  .text13
+  {
+    z-index: 13;
+    position: relative;
+    margin-left: 151px;
+    top: 316px;
     font-family: Gilroy-Medium;
     font-size: 24px;
     color: #FFFFFF;
-    z-index: 15;
-}
-.futor
-{
-  width: 1920px;
-  height: 422px;
-  height: 474px;
-  top: -16px;
-  display: flex;
-  position: relative;
-  background-color: #0000FF;
-}
+  }
