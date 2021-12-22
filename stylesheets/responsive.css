@@ -383,6 +383,7 @@
     .section
     {
       position: absolute;
+      width: -118px;
     }
     .animationspace1:hover
     {
@@ -393,6 +394,7 @@
     .animationspace1
     {
       z-index: 10;
+      width: 0px;
       top: 108px;
       transform: scale(120%);
       position: relative;
