@@ -371,14 +371,14 @@
     {
       position: relative;
       width: 1926px;
-      height: 1350px;
+      height: 1142px;
     }
     .picspace
     {
       position: absolute;
       margin-left: 0px;
-      margin-top: 111px;
-    transform: scale(120%);
+      margin-top: 3px;
+    transform: scale(101%);
     }
     .section
     {
@@ -395,8 +395,8 @@
     {
       z-index: 10;
       width: 0px;
-      top: 108px;
-      transform: scale(120%);
+      top: 5px;
+      transform: scale(101%);
       position: relative;
       position: relative;
       background-image: url('../img/spaceani1.png');
