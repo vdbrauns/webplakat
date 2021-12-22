@@ -7,6 +7,7 @@ body
   width: 1920px;
 }
 
+
 @font-face
 {
 	font-family: 'Gilroy-Bold';
@@ -1014,6 +1015,48 @@ top: 21px;
   height: 1133px;
   display: flex;
   position: relative;
+}
+.textplash
+{
+    width: 733px;
+    height: 280px;
+    margin-top: 409px;
+    margin-left: 69px;
+    background: #0000FE;
+    z-index: 19;
+}
+.text15
+{
+    position: absolute;
+    width: 770px;
+    height: 23px;
+    margin-left: 91px;
+    top: 397px;
+    font-family: Gilroy-Bold;
+    font-size: 100px;
+    color: #FFFFFF;
+    z-index: 20;
+}
+.text16
+{
+  position: absolute;
+  width: 770px;
+  height: 23px;
+  margin-left: 1434px;
+  top: 819px;
+  font-family: Gilroy-Medium;
+  font-size: 30px;
+  color: #FFFFFF;
+  z-index: 20;
+}
+.textplash1
+{
+  width: 253px;
+  height: 280px;
+  margin-top: 748px;
+  margin-left: 645px;
+  background: #0000FE;
+  z-index: 19;
 }
 .picspace
 {

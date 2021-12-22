@@ -1,0 +1,429 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+  /* iPad */
+  .pers
+  {
+    position: fixed;
+    width: 309px;
+    height: 338px;
+    display: flex;
+    left: 826px;
+    top: 720px;
+    z-index: 999;
+    animation: pers 6s linear infinite;
+  }
+  @keyframes pers
+  {
+    0%
+    {transform: rotate(0deg);}
+    25%
+    {
+      transform: rotate(45deg);
+    }
+    85%
+    {transform: rotate(-20deg);}
+    100%
+    {
+      transform: rotate(0deg);
+    }
+  }
+
+  .screen1
+  {
+    position: relative;
+    width: 1926px;
+    height: 1350px;
+  }
+  .homeleft
+  {
+    width: 240px;
+    height: 1024px;
+    transform: scale(150%);
+    margin-left: 57px;
+    margin-top: 90px;
+  }
+  .panelka1
+  {
+    background: url('../img/panelka1.svg');
+    display: block;
+    width: 360px;
+    height: 905px;
+    position: relative;
+    margin-top: 106px;
+  }
+  .panelka2
+  {
+    position: relative;
+    margin-top: 135px;
+    margin-left: -1px;
+  }
+  .animationwindow
+  {
+    position: relative;
+    width: 65px;
+    height: 47px;
+    top: 460px;
+    left: 137px;
+    background: #FFE600;
+    opacity: 0%;
+    transition: 10s;
+    animation: show 3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes show
+    {
+    0%
+    {
+    opacity:0;
+    }
+    45%
+    {
+    opacity:0.5;
+    }
+    }
+    .animationwindow1
+    {
+      position: relative;
+      width: 30px;
+      height: 47px;
+      z-index: 99;
+      top: 114px;
+      left: 151px;
+      background: #FFE600;
+      opacity: 0%;
+      transition: 5s;
+      animation: show 10s 1;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+      animation-iteration-count:infinite;
+      }
+      @keyframes show
+      {
+      0%
+      {
+      opacity:0;
+      }
+      45%
+      {
+      opacity:0.5;
+      }
+      }
+      .animationwindow2
+      {
+        position: relative;
+        width: 74px;
+        height: 43px;
+        top: 142px;
+        left: 0px;
+        background: #FFE600;
+        opacity: 0%;
+        transition: 10s;
+        animation: show 20s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+        }
+        @keyframes show
+        {
+        0%
+        {
+        opacity:0;
+        }
+        45%
+        {
+        opacity:0.5;
+        }
+        }
+        .animationwindow3
+        {
+          position: relative;
+          width: 62px;
+          height: 45px;
+          top: 382px;
+          left: 112px;
+          background: #FFE600;
+          opacity: 0%;
+          transition: 10s;
+          animation: show 15s 1;
+          animation-fill-mode: forwards;
+          animation-delay: 1s;
+          animation-iteration-count:infinite;
+          }
+          @keyframes show
+          {
+          0%
+          {
+          opacity:0;
+          }
+          45%
+          {
+          opacity:0.5;
+          }
+          }
+          .animationwindow4
+          {
+            position: relative;
+            width: 66px;
+            height: 47px;
+            top: 344px;
+            left: 6px;
+            background: #FFE600;
+            opacity: 0%;
+            transition: 5s;
+            animation: show 5s 1;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+            animation-iteration-count:infinite;
+            }
+            @keyframes show
+            {
+            0%
+            {
+            opacity:0;
+            }
+            45%
+            {
+            opacity:0.5;
+            }
+            }
+            .animationwindow5
+            {
+              position: relative;
+              width: 60px;
+              height: 43px;
+              top: 488px;
+              left: 182px;
+              background: #FFE600;
+              opacity: 0%;
+              transition: 5s;
+              animation: show 20s 1;
+              animation-fill-mode: forwards;
+              animation-delay: 1s;
+              animation-iteration-count:infinite;
+              }
+              @keyframes show
+              {
+              0%
+              {
+              opacity:0;
+              }
+              45%
+              {
+              opacity:0.5;
+              }
+              }
+    .rectangle
+    {
+      left: 74px;
+      margin-top: 111px;
+    }
+    .rectangle1
+    {
+      left: 282px;
+    margin-top: 107px;
+    }
+    .rectangle2
+    {
+      left: 260px;
+      margin-top: 105px;
+    }
+    .maintext1
+    {
+      position: absolute;
+      width: 634px;
+      height: 336px;
+      top: 73px;
+      left: 93px;
+    }
+    .text
+    {
+      position: absolute;
+      width: 612.85px;
+      height: 219.8px;
+      left: 400px;
+      top: 110px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 120px;
+      line-height: 110px;
+      color: #0000FD;
+    }
+    .text1
+    {
+      position: absolute;
+      width: 759px;
+      height: 220px;
+      left: 407px;
+      top: 364px;
+      font-family: F77 Minecraft;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 110px;
+      line-height: 82px;
+      color: #0000FD;
+    }
+    .homeright
+    {
+      display: flex;
+      width: 418px;
+      height: 1024px;
+      top: 211px;
+      transform: scale(130%);
+      margin-left: 798px;
+      position: relative;
+    }
+    .panelka4
+    {
+        background: url('../img/panelka4.svg');
+        display: flex;
+        width: 257px;
+        height: 928px;
+        left: -162px;
+        top: 4px;
+        transform: scale(115%);
+        position: relative;
+
+      }
+      .panelka5
+    {
+      display: flex;
+      width: 187px;
+      height: 696px;
+      left: -360px;
+      margin-left: 213px;
+      top: 253px;
+      position: absolute;
+      transform: scale(115%);
+    }
+    .rectangle3
+    {
+      width: 120px;
+      height: 640px;
+      top: 285px;
+      left: 434px;
+      z-index: 9;
+      background: #0B0CB9
+    }
+    .rectangle5
+    {
+      position: absolute;
+      width: 143px;
+      height: 110px;
+      top: 91px;
+      left: -94px;
+      background: #0B0CB9;
+    }
+    .rectangle6
+    {
+    position: absolute;
+    width: 92px;
+    height: 196px;
+    top: 804px;
+    left: -30px;
+    background: #0000FF;
+    }
+    .screen2
+    {
+      position: relative;
+      width: 1926px;
+      height: 1350px;
+    }
+    .piccloud
+    {
+      position: absolute;
+      transform: scale(190%);
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .mainclouds
+    {
+      position: relative;
+      position: relative;
+      top: 247px;
+      transform: scale(140%);
+    }
+    .text5
+    {
+      position: relative;
+      width: 444px;
+      height: 66px;
+      left: -375px;
+      top: 85px;
+      font-family: Gilroy-Medium;
+      font-size: 38px;
+      color: #FFFFFF;
+    }
+    .text6
+    {
+      position: relative;
+      width: 761px;
+      height: 125px;
+      left: 115px;
+      top: 366px;
+      font-family: Gilroy-Medium;
+      font-size: 38px;
+      color: #FFFFFF;
+    }
+    .screen3
+    {
+      position: relative;
+      width: 1926px;
+      height: 1350px;
+    }
+    .picspace
+    {
+      position: absolute;
+      margin-left: 0px;
+      margin-top: 111px;
+    transform: scale(120%);
+    }
+    .section
+    {
+      position: absolute;
+    }
+    .animationspace1:hover
+    {
+    background-image: url('../img/spaceani2.png');
+    cursor: pointer;
+    transition: 0.35s;
+    }
+    .animationspace1
+    {
+      z-index: 10;
+      top: 108px;
+      transform: scale(120%);
+      position: relative;
+      position: relative;
+      background-image: url('../img/spaceani1.png');
+    }
+    .plashka3
+    {
+      position: relative;
+      width: 1928px;
+      height: 90px;
+      background: #0000FE;
+    }
+    .plashka2
+    {
+      position: relative;
+      width: 1928px;
+      height: 90px;
+      background: #0000FE;
+    }
+    .plashka4
+    {
+      position: relative;
+      width: 1919px;
+      height: 90px;
+      background: #0000FE;
+    }
+    .plashka
+    {
+      position: relative;
+      width: 1928px;
+      height: 90px;
+      background: #0000FE;
+    }
