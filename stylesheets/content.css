@@ -824,16 +824,17 @@ background: #0B0CB9;
 .screen2
 {
   width: 1920px;
-  height: 907px;
+  height: 1699px;
   display: flex;
   overflow: hidden;
   position: relative;
 }
 .piccloud
 {
-  position: absolute;
-  margin-left: 0px;
-  margin-top: -21px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -21px;
+    transform: scale(270%);
 }
 .cloud1
 {
@@ -946,21 +947,21 @@ background: #0B0CB9;
   position: relative;
   width: 444px;
   height: 66px;
-  left: -375px;
-  top: 85px;
+  left: -304px;
+  top: 139px;
   font-family: Gilroy-Medium;
-  font-size: 24px;
+  font-size: 40px;
   color: #FFFFFF;
 }
 .text6
 {
   position: relative;
-  width: 424px;
+  width: 722px;
   height: 125px;
-  left: 227px;
-  top: 366px;
+  left: -49px;
+  top: 775px;
   font-family: Gilroy-Medium;
-  font-size: 24px;
+  font-size: 40px;
   color: #FFFFFF;
 }
 .mainclouds
@@ -1040,7 +1041,7 @@ top: 21px;
 .text16
 {
   position: absolute;
-  width: 770px;
+  width: 407px;
   height: 23px;
   margin-left: 1434px;
   top: 819px;
